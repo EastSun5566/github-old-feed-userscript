@@ -1,6 +1,6 @@
 {
   "name": "github-old-feed-userscript",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simply use `github.com/dashboard-feed` to bring back the old GitHub feed",
   "main": "index.js",
   "scripts": {
