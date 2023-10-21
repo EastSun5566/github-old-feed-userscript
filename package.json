@@ -1,0 +1,29 @@
+{
+  "name": "chatgpt-2-hackmd-userscript",
+  "version": "0.0.13",
+  "description": "A userScript to ship some chatGPT conversions to HackMD",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix --ignore-path .gitignore",
+    "release": "npx standard-version && git push --follow-tags"
+  },
+  "keywords": [
+    "userscript",
+    "chatgpt",
+    "hackmd"
+  ],
+  "author": "Michael Wang 汪東陽 <michael19920327@gmial.com> (https://github.com/EastSun5566)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "simple-git-hooks": "^2.9.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.js": "pnpm run lint"
+  }
+}
