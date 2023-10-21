@@ -6,7 +6,7 @@
 // @author       Michael Wang
 // @license      MIT
 // @homepageURL  https://github.com/EastSun5566
-// @match        https://github.com/
+// @match        https://github.com
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
 // @grant        none
 // ==/UserScript==
