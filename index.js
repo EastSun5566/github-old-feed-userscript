@@ -13,16 +13,15 @@
 
 // @ts-check
 
-(async function () {
-  try {
-    const text = await fetch('https://github.com/dashboard-feed')
-      .then((res) => res.text());
-    const doc = new DOMParser().parseFromString(text, 'text/html');
-    const oldFeed = doc.querySelector('main');
+(function () {
+  fetch('https://github.com/dashboard-feed')
+    .then((res) => res.text())
+    .then((text) => {
+      const doc = new DOMParser().parseFromString(text, 'text/html');
+      const oldFeed = doc.querySelector('main');
 
-    const dashboard = document.getElementById('dashboard');
-    if (dashboard && oldFeed) dashboard.replaceWith(oldFeed);
-  } catch (error) {
-    console.error('Failed to fetch old feed: ', error);
-  }
+      const dashboard = document.getElementById('dashboard');
+      if (dashboard && oldFeed) dashboard.replaceWith(oldFeed);
+    })
+    .catch((err) => console.error('Failed to fetch old feed', err));
 }());
