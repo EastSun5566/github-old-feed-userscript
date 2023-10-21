@@ -1,7 +1,7 @@
 {
-  "name": "chatgpt-2-hackmd-userscript",
-  "version": "0.0.13",
-  "description": "A userScript to ship some chatGPT conversions to HackMD",
+  "name": "github-old-feed-userscript",
+  "version": "0.0.1",
+  "description": "Simply use `github.com/dashboard-feed` to bring back the old GitHub feed",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --fix --ignore-path .gitignore",
@@ -9,8 +9,8 @@
   },
   "keywords": [
     "userscript",
-    "chatgpt",
-    "hackmd"
+    "gihtub",
+    "feed"
   ],
   "author": "Michael Wang 汪東陽 <michael19920327@gmial.com> (https://github.com/EastSun5566)",
   "license": "MIT",
