@@ -2,7 +2,7 @@
 // @name         GitHub old feed
 // @namespace    https://github.com/EastSun5566
 // @version      0.0.1
-// @description  Bring the old GitHub feed back
+// @description  Simply use `github.com/dashboard-feed` to bring back the old GitHub feed
 // @author       Michael Wang
 // @license      MIT
 // @homepageURL  https://github.com/EastSun5566
