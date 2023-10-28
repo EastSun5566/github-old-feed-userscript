@@ -1,7 +1,7 @@
 {
   "name": "github-old-feed-userscript",
   "version": "0.0.4",
-  "description": "Simply use `github.com/dashboard-feed` to bring back the old GitHub feed",
+  "description": "🔙 Simply use `github.com/dashboard-feed` to bring back the old GitHub feed",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --fix --ignore-path .gitignore",
