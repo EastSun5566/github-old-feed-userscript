@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         GitHub old feed
+// @name         GitHub Old Feed
 // @namespace    https://github.com/EastSun5566
-// @version      0.0.4
+// @version      0.0.8
 // @description  Simply use `github.com/dashboard-feed` to bring back the old GitHub feed
 // @author       Michael Wang
 // @license      MIT
